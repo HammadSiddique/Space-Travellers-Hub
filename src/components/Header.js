@@ -1,23 +1,21 @@
-import React from "react"
-import planet from "../assets/planet.png"
-import { NavLink } from "react-router-dom"
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import planet from '../assets/planet.png';
 
-const Header = () => {
-  return (
-    <nav>
+const Header = () => (
+  <nav>
     <div className="header-container">
       <div className="logo-container">
-        <img className="logo" src={planet} alt=""></img>
-        <h1>Space Travelers' Hub</h1>
+        <img className="logo" src={planet} alt="" />
+        <h1>Space Travelers Hub</h1>
       </div>
       <ul className="links">
-        <li><NavLink to='/'>Rockets</NavLink></li>
-        <li><NavLink to='/missions'>Missions</NavLink></li>
-        <li><NavLink to='/profile'>My Profile</NavLink></li>
+        <li><NavLink to="/">Rockets</NavLink></li>
+        <li><NavLink to="/missions">Missions</NavLink></li>
+        <li><NavLink to="/profile">My Profile</NavLink></li>
       </ul>
     </div>
-    </nav>
-  )
-}
+  </nav>
+);
 
 export default Header;
