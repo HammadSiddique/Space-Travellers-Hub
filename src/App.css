@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -44,4 +50,13 @@ li {
 .links li:nth-child(2) {
   border-right: 2px solid gray;
   padding-right: 5px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.links a.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
