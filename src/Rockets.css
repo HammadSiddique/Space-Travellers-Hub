@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rockets {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.rocket-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.rocket {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.rocket-img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+.rocket-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.rocket-info button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #1da1f2;
+  outline: none;
+  width: 20%;
+  padding: 1rem 1.2rem;
+  border: none;
+}
