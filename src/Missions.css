@@ -1,0 +1,26 @@
+button {
+  width: max-content;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+  text-align: justify;
+}
+
+td:nth-child(3) {
+  width: 10rem;
+}
+
+.table {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.table-body {
+  color: black;
+}
+
+.table-body tr:nth-child(odd) {
+  background-color: rgb(238, 237, 237);
+}
