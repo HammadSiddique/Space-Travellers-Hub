@@ -5,7 +5,7 @@ import { fetchMissions, leaveMissionAction, joinMissionAction } from '../redux/m
 import '../Missions.css';
 
 const Missions = () => {
-  const missionData = useSelector((state) => state);
+  const missionData = useSelector((state) => state.missions);
   const dispatch = useDispatch();
 
   useEffect(() => {
