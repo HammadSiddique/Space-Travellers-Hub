@@ -48,3 +48,5 @@ export const missionReducer = (state = initialState, action) => {
       return state;
   }
 };
+
+export const Allmissions = (state) => state.missions;
