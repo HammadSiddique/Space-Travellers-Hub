@@ -38,7 +38,7 @@ const Missions = () => {
                 {mission.reserved ? (<span className="member">Active Member</span>) : (<span className="not-member">NOT A MEMBER</span>)}
               </td>
               <td>
-                <button
+                <button className={mission.reserved ? "leave-btn" : "join-btn"}
                   onClick={() => toggleReservation(mission)}
                   type="button"
                 >

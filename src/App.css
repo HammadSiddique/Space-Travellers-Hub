@@ -26,13 +26,13 @@ li {
 }
 
 .header-container h1 {
-  font-size: 38px;
+  font-size: 34px;
   font-weight: bold;
   margin: auto 10px;
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
 }
 
 .links {
@@ -54,6 +54,7 @@ li {
 
 .links a {
   text-decoration: none;
+  font-size: 18px;
 }
 
 .links a.active {

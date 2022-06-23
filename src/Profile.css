@@ -1,0 +1,20 @@
+.profile-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.my-missions,
+.my-rockets {
+  width: 45%;
+}
+
+.profile-table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.profile-table td {
+  padding: 10px;
+}
