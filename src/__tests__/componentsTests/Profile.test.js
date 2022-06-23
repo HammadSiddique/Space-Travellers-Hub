@@ -1,12 +1,12 @@
 import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import store from '../redux/configureStore';
-import MyProfile from '../pages/MyProfile';
+import store from '../../redux/configureStore';
+import Profile from '../../components/profile/Profile';
 
 const MockMyProfileComponent = () => (
   <Provider store={store}>
-    <MyProfile />
+    <Profile />
   </Provider>
 );
 

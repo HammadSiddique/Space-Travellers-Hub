@@ -2,7 +2,7 @@ import { Provider } from 'react-redux';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import store from '../../redux/configureStore';
-import Missions from '../../components/Missions';
+import Missions from '../../components/missions/Missions';
 
 const MockMissionComponent = () => (
   <Provider store={store}>
