@@ -19,7 +19,7 @@
 
 ## Live Demo 🔗
 
-not yet
+[Live Demo](https://cool-dusk-de1ef6.netlify.app/)
 
 ## Getting Started
 
