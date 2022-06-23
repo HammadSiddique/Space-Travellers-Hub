@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
-import { useDispatch } from 'react-redux/es/hooks/useDispatch';
-import { useSelector } from 'react-redux/es/exports';
+import { useDispatch, useSelector } from 'react-redux';
 import { fetchMissions, leaveMissionAction, joinMissionAction } from '../redux/missions/missions';
 import '../Missions.css';
 
