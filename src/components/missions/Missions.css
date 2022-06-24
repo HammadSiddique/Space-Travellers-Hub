@@ -1,0 +1,47 @@
+button {
+  min-width: 100px;
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+td:nth-child(3) {
+  width: 10rem;
+}
+
+.table {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.table-body {
+  color: black;
+}
+
+.table-body tr:nth-child(odd) {
+  background-color: rgb(238, 237, 237);
+}
+
+.table-body td:nth-child(2) {
+  text-align: justify;
+}
+
+.leave-btn {
+  color: red;
+  border-color: red;
+}
+
+.member {
+  background-color: #24b1c7;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.not-member {
+  background-color: #6d757d;
+  border-radius: 5px;
+  padding: 3px;
+}

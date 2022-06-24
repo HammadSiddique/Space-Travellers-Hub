@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rockets {
+  width: 80%;
+  margin: 3% auto;
+}
+
+.rocket-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+
+.rocket {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.rocket-img {
+  width: 30%;
+  border-radius: 5px;
+}
+
+.rocket-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.rocket-info button {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #1da1f2;
+  outline: none;
+  padding: 0.7rem 0.9rem;
+  border-radius: 7px;
+  border: none;
+  width: fit-content;
+}
+
+.reserved {
+  background-color: rgb(58, 184, 75);
+  border: 1px solid rgb(58, 184, 75);
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
