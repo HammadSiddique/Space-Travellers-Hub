@@ -19,7 +19,7 @@ const Missions = () => {
     }
     return dispatch(joinMissionAction(mission.mission_id));
   };
-  const tblHeaders = ['Mission', 'Discription', 'Status', 'Action'];
+  const tblHeaders = ['Mission', 'Description', 'Status', 'Action'];
   return (
     <div>
       <table className="table" border={1} cellSpacing={0}>
@@ -32,7 +32,7 @@ const Missions = () => {
           {missionData.map((mission) => (
             <tr key={mission.mission_id}>
               <td>{mission.mission_name}</td>
-              <td>{mission.description}</td>
+              <td className="description">{mission.description}</td>
               <td>
                 {mission.reserved ? (<span className="member">Active Member</span>) : (<span className="not-member">NOT A MEMBER</span>)}
               </td>

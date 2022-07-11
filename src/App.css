@@ -15,10 +15,12 @@ li {
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1.5px solid gray;
   padding-bottom: 10px;
   width: 90%;
   margin: auto;
+  margin-top: 1%;
 }
 
 .logo-container {
@@ -26,30 +28,38 @@ li {
 }
 
 .header-container h1 {
-  font-size: 34px;
+  font-size: 2rem;
   font-weight: bold;
-  margin: auto 10px;
+  margin: auto 0.7rem;
 }
 
 .logo {
-  width: 80px;
+  width: 10%;
 }
 
 .links {
   display: flex;
-  margin: auto 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: auto 5px;
+  width: fit-content;
 }
 
 .links li {
-  margin: auto 5px;
+  margin: auto 2px;
   color: #1da1f2;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
 .links li:nth-child(2) {
   border-right: 2px solid gray;
-  padding-right: 5px;
+  padding-right: 0.75rem;
+}
+
+.links li:nth-child(3) {
+  min-width: 10ch;
 }
 
 .links a {
@@ -63,4 +73,55 @@ li {
   text-decoration: underline;
   text-underline-offset: 4px;
   color: #1da1f2;
+}
+
+@media screen and (max-width: 900px) {
+  .header-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container h1 {
+    font-size: 1.3rem;
+  }
+
+  .links {
+    gap: 0.2rem;
+  }
+
+  .links a {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .header-container h1 {
+    font-size: 0.85rem;
+    min-width: 20ch;
+    font-weight: 700;
+    margin: auto 0.5rem;
+  }
+
+  .logo-container {
+    margin-top: 2.5%;
+  }
+
+  .links {
+    gap: 0.2rem;
+    padding-left: 1rem;
+  }
+
+  .links li:nth-child(2) {
+    border: none;
+    padding-right: 0;
+  }
+
+  .links a {
+    font-size: 0.5rem;
+  }
 }

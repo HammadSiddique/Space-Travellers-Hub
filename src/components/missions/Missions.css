@@ -45,3 +45,9 @@ td:nth-child(3) {
   border-radius: 5px;
   padding: 3px;
 }
+
+@media screen and (max-width: 768px) {
+  .description {
+    font-size: 0.8rem;
+  }
+}
